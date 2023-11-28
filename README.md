@@ -7,10 +7,10 @@
 **login.php** --> login administrador <br />
 **admin.php** --> visualidzación administrados (enlaces para editar, borrar y agregar) <br />
 **agregar.php, editar_producto.php** --> páginas para agregar y editar producto  <br />
-  
+<br /> 
 **DB** --> servicios.sql  
-  
+<br />  
 ### Cuenta Administrador
-### ====================
+### ==================== <br />
 **Usuario:** admin <br />  
 **Contraseña:** 12345 <br />
