@@ -1,7 +1,7 @@
 # PF---BackEnd---Potrero-Digital
 Proyecto Final para trayecto BackEnd de Potrero Digital
 
-Contenidos
+Contenidos <br>
 index.php --> enlace a tienda en #servicios
 servicios.php --> visualización cliente, enlace al administrador
 login.php --> login administrador
