@@ -12,5 +12,5 @@
 
 ### Cuenta Administrador
 ### ====================
-**Usuario:** admin
+**Usuario:** admin <br>
 **Contraseña:** 12345
