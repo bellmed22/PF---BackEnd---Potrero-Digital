@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="diseño gráfico, desarrollo web, responsive, UX UI, branding">
+    <meta name="description" content="Desarrollo web, diseño, ilustración">
+    <meta name="autor" content="BLM">
+    <title>Ilustack - Ilustraciones y Desarrollo Web</title>
+
+
+
+    <!-- CSS -->
+    <!-- Externas -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+        <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+
+    <!-- Local -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+
+        <ul>
+            <li><a class="nav-link scrollto active" href="#top">Inicio</a></li>
+            <li><a class="nav-link scrollto" href="#about">Acerca de mí</a></li>
+            <li><a class="nav-link scrollto" href="#servicios">Servicios</a></li>
+            <li><a class="nav-link scrollto" href="#testimonioss">Testimonios</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <button class="dark-mode-toggle" aria-hidden="true">
+            <svg class="dark-mode-toggle_icon" width="24" height="24" viewBox="0 0 24 24">
+                <defs>
+                    <mask id="mask">
+                        <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                        <circle class="dark-mode-toggle_cut-out" r="6" cx=24 cy="10" fill="black" />
+                    </mask>
+                </defs>
+                <circle class="dark-mode-toggle_center-circle" r="6" cx="12" cy="12" fill="currentColor"
+                    mask="url(#mask)" />
+                <g class="dark-mode-toggle_rays" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="12" x2="12" y1="3" y2="1" />
+                    <line x1="21" x2="23" y1="12" y2="12" />
+                    <line x1="12" x2="12" y1="21" y2="23" />
+                    <line x1="1" x2="3" y1="12" y2="12" />
+                </g>
+                <g class="dark-mode-toggle_rays" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    transform="rotate(45 12 12)">
+                    <line x1="12" x2="12" y1="3" y2="1" />
+                    <line x1="21" x2="23" y1="12" y2="12" />
+                    <line x1="12" x2="12" y1="21" y2="23" />
+                    <line x1="1" x2="3" y1="12" y2="12" />
+                </g>
+            </svg>
+        </button>
+
+    </nav><!-- navbar -->
+
+
+
+    <!-- HEADER -->
+    <header id="top">
+
+        <!-- Slider -->
+        <div class="cd-slider">
+            <ul>
+
+                <li data-color="#403267">
+                    <div class="content" data-delay="7000" style="background-image:url(./assets/slide1.jpg)">
+                        <blockquote>
+                            <span style=" font-size:1.7rem; letter-spacing:4px;">Ilustración & Desarrollo Web</span>
+                            <p>ilus/tack</p>
+                        </blockquote>
+                    </div>
+                </li>
+
+                <li data-color="#eb396e">
+                    <div class="content" style="background-image:url(./assets/slide2.jpg)">
+                        <blockquote>
+                            <p>Ilustraciones y Diseño</p>
+                        </blockquote>
+                    </div>
+                </li>
+
+                <li data-color="#2365b1">
+                    <div class="content" style="background-image:url(./assets/slide3.jpg)">
+                        <blockquote>
+                            <p>Desarrollo Web</p>
+                        </blockquote>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Controles -->
+            <nav id="controles">
+                <div><a class="prev" href="#"></a></div>
+                <div><a class="next" href="#"></a></div>
+            </nav>
+            <img class="front" src="./assets/sliderfront1.png" alt="blm">
+        </div> <!-- slider -->
+
+    </header>
+
+
+
+    <!-- CITA -->
+    <section class="secquote">
+        <div class="container">
+
+            <h5>Toda página web<br>
+                comienza con un <span>"dibujo"</span>.</h5>
+        </div>
+    </section>
+
+    <!-- ACERCA DE -->
+    <section id="about" class="section-black">
+        <div class="container">
+
+            <div data-aos="fade-up" data-aos-delay="100">
+
+                <!-- Profile -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="abme" src="./assets/abme.jpg" alt="BLM">
+                        <div class="quote">BLM</div>
+                        <p style="font-size:85%"> &mdash; Desarrolladora de día, actriz de
+                            noche; polifacética y creativa siempre. Si no estoy en frente a la pantalla,
+                            estoy en ella.</p>
+                        <br>
+                        <a class="btn nav-link scrollto" href="#contact">Disponible <i
+                                class="fas fa-check-circle "></i></a>
+                        <!-- profile -->
+
+                        <!-- Skillbars -->
+                        <h4 class="side">HABILIDADES</h4>
+
+                        <div class="skill">
+                            <h2 class="skill_type">HTML</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--html">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">CSS</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--css">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">JS</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--js">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">BOOTSTRAP</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--bs">                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">GIT</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--git">                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">GITHUB</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--ghub">                                    
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skill">
+                            <h2 class="skill_type">DISEÑO RESPONSIVO</h2>
+                            <div class="skill_outer-bar">
+                                <div class="skill_inner-bar skill_inner-bar--en">                                    
+                                </div>
+                            </div> <!-- skillbars -->
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- ADM Principal -->
+                    <div class="col-md-9">
+                        <div class="container">
+
+                            <h2>ACERCA DE MÍ</h2>
+                            <p style="text-align:center">Mi nombre es Belén.<br>
+                                Soy ilustradora, diseñadora, dibujante de historieras autoreferenciales,
+                                autodidacta serial y persona &mdash; apasionada por las artes visuales, la tecnología,
+                                el desarrollo web y el chocolate.</p>
+                            <br>
+                            <h3>Cosas que hago...</h3>
+
+                            <div class="card mb-3" data-aos="flip-left" data-aos-delay="500">
+                                <div class="row">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/cosas2.png" alt="Diseño">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <p><span>Diseño</span><br>
+                                                Ya sea usando líneas de codigo, de tinta o vectoriales,
+                                                disfruto creando sitios sencillos, atractivos
+                                                y con personalidad única y distintiva.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" data-aos="flip-right" data-aos-delay="500">
+                                <div class="row reverse">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/cosas1.png" alt="Desarrollo Web">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <p><span>Desarrollo Web</span><br>
+                                                Trabajo con pixeles y lenguajes de programación para crear sitios
+                                                funcionales. Me gustan las estructuras claras, los coódigos
+                                                limpios y los contenidos ordenados en cajas antes de lanzarlos
+                                                a la web.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" data-aos="flip-left" data-aos-delay="500">
+                                <div class="row">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/cosas5.png" alt="ilustración">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <p><span>Ilustración</span><br>
+                                                Trato de darle personalidad y vida a mis proyectos dotándolos
+                                                de elementos ilustrados de distinta naturaleza, teniendo en
+                                                cuenta las necesidades del sitio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" data-aos="flip-right" data-aos-delay="500">
+                                <div class="row reverse">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/cosas3.png" alt="Resolución">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <p><span>Resolución de problemas</span><br>
+                                                Enfrento imprevistos con determinación y creatividad, y
+                                                no temo pedir ayuda de quienes más saben en la comunidad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" data-aos="flip-left" data-aos-delay="500">
+                                <div class="row">
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center ">
+                                        <img src="./assets/cosas4.png" alt="Formación">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <p><span>Formación permanente</span><br>
+                                                Me gusta descubrir nuevas tecnologías y recuersos y aplicarlas a la
+                                                creación.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- adm principal -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+
+    <section id="servicios" class="section-white">
+        <div class="container" filter-0>
+
+            <h2>SERVICIOS</h2>
+
+
+
+
+            <!-- Tarjetas -->
+            <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="servicios__item">
+                                <div class="servicios__item__pic">
+                                    <img src="assets/trabajos/dis_002.jpg" class="img-fluid" alt="">
+                                    <div class="servicios__label">
+                                        <span>Diseño</span>
+                                    </div>
+                                </div>
+                                <div class="servicios__item__text">   
+                                    <div class="masinfo">
+                                        <a href="servicios.php#dis">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="servicios__item">
+                        <div class="servicios__item__pic">
+                            <img src="assets/trabajos/ill_001.jpg" class="img-fluid" alt="">
+                            <div class="servicios__label">
+                                <span>Ilustración</span>
+                            </div>
+                        </div>
+                        <div class="servicios__item__text">  
+                            <div class="masinfo">
+                                <a href="servicios.php#ill">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="servicios__item">
+                        <div class="servicios__item__pic">
+                            <img src="assets/trabajos/web_001.jpg" class="img-fluid" alt="">
+                            <div class="servicios__label">
+                                <span>Desarrollo Web</span>
+                            </div>
+                        </div>
+                        <div class="servicios__item__text">            
+                            <div class="masinfo">
+                                <a href="servicios.php#web">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Galería -->  
+            
+            <h3>Trabajos Destacados</h3>
+ 
+            <!-- FILTROS -->
+            <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">Todos</li>
+                        <li data-filter=".filter-1">Ilustración</li>
+                        <li data-filter=".filter-2">Diseño</li>
+                        <li data-filter=".filter-3">Web</li>
+                    </ul>
+                </div>
+            </div><!-- FILTROS -->
+            
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                
+
+            <div data-aos="fade-up" data-aos-delay="200" >
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_009.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_009.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_008.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_008.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_001.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_001.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_002.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_002.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_003.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_003.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div> -->
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-3">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 yellow">
+                            <img src="assets/trabajos/web_001.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/web_001.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>W<span>eb</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_007.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_007.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_003.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_003.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_001.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_001.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_006.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_006.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1 filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_002.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_002.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span><br>
+                                    Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_005.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_005.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_005.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_005.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1 filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_007.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_007.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span><br>
+                                    Ilus<span>tración</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_006.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_006.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-1 filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 red">
+                            <img src="assets/trabajos/ill_004.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/ill_004.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Ilus<span>tración</span><br>
+                                    Ani<span>mación</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-3 col-sm-6 portfolio-item filter-2">
+                    <div class="gallery-item h-100">
+                        <figure class="snip1104 blue">
+                            <img src="assets/trabajos/dis_008.jpg" class="img-fluid" alt="">
+                            <div class="gallery-links d-flex align-items-center justify-content-center">
+                                <a href="assets/trabajos/dis_008.jpg" class="glightbox preview-link"></a>
+                            </div>
+                            <figcaption>
+                                <h2>Di<span>seño</span></h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div> <!-- galeria -->
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- tarjetas -->
+
+
+           
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIOS -->
+
+    <section id="testimonioss" class="testimonioss section-gradient">
+        <div class="container">
+            <h2>Testimonios</h2>
+
+            <!-- Slider -->
+            <div class="testimonioss-slider swiper" data-aos="fade-down" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonios-item">
+                            <img src="assets/rt.png" class="testimonios-img" alt="RT">
+                            <h3>R.T.</h3>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                El ser más eficiento con el que trabajé. Un placer trabajar
+                                con Belén en todas sus facetas. s será mi diseñadora.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonios item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonios-item">
+                            <img src="assets/bk.png" class="testimonios-img" alt="BK">
+                            <h3>B.K.</h3>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Un placer y un amor total. La recomendé por todos lados.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonios item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonios-item">
+                            <img src="assets/dg.png" class="testimonios-img" alt="DG">
+                            <h3>D.G.</h3>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                La gráfica más linda que tuvimos. Sus ilustraciones son
+                                realmente muy bellas.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonios item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonios-item">
+                            <img src="assets/rs.png" class="testimonios-img" alt="">
+                            <h3>R.S.</h3>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Mi mano derecha tecnológica y diseñadora por excelencia. Rápidez,
+                                sencillez y buen gusto.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonios item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- testimonios -->
+
+    <section id="contact" class="section-black">
+        <div class="container">
+
+            <h2>Contacto</h2>
+
+            <div class="row contact-info" data-aos="zoom-in" data-aos-delay="100">
+
+                <div class="col-md-4">
+                    <div class="contact-phone">
+                        <i class="bi bi-whatsapp"></i>
+                        <h3>Whatsapp</h3>
+                        <p><a href="ttps://wa.me/543413144624">¡Hablemos!</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-email">
+                        <i class="bi bi-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:elfylock@proton.me">¡Escribime!</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-map">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107134.74394039533!2d-60.76667918868166!3d-32.95204571119454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1671300589493!5m2!1ses-419!2sar"
+                            width="200" height="200" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section><!-- contacto -->
+
+
+    <footer id="footer">
+        <div class="container">
+            <h3>BlM</h3>
+            <p>Mi bandeja de mensajes siempre está disponible, ya sea que quieras saludar,
+                hacerme una pregunta, invitarme un chocolate,o contratarme <i class="fa fa-grin"></i></p>
+            <div class="redes-links">
+                <a href="mailto:elfylock@proton.me"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/blopezmedina" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/belenlmedina/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/bellmed22" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i></a>
+            </div>
+            <div class="credits">
+                Creado por <span style="font-weight:900;"><a href="mailto:elfylock@proton.me">BLM</a></span>
+                <br> ©2022
+            </div>
+        </div>
+    </footer><!-- footer -->
+
+    <!-- BTTOP -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i></a> <!-- bttop -->
+
+
+
+
+    <!-- SCRIPTS -->
+
+
+    <!-- jQuery - JS-->
+
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
