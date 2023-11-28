@@ -1,4 +1,4 @@
-# PF---BackEnd---Potrero-Digital
+# PF_BackEnd_Potrero-Digital
 Proyecto Final para trayecto BackEnd de Potrero Digital<br>
 
 Contenidos <br>
