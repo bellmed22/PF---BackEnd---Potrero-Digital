@@ -1,5 +1,8 @@
 # PF_BackEnd_Potrero-Digital
 *Proyecto Final para trayecto BackEnd de Potrero Digital*<br />
+
+![iluStore](login.jpg)
+
 ### ===============<br />
 ###   Contenidos 
 ### ===============<br />
